@@ -8,7 +8,7 @@ st.set_page_config(page_title="Controlo de Frota - Manutenção", layout="wide")
 # Função para carregar a base de veículos (Simulada por agora)
 @st.cache_data
 def carregar_veiculos():
-    # Quando tiver o seu ficheiro pronto, usaremos: pd.read_csv('veiculos.csv')
+    # Quando tiver o seu ficheiro pronto, usaremos: pd.read_xlsx('FROTA ALESSANDRO.XLSX')
     # Por agora, usamos dados fictícios baseados nos seus ficheiros para testar
     dados = {
         'FROTA': ['11067', '41040', '31069', '41044'],
